@@ -31,13 +31,7 @@ pip install opencv-python numpy
 
 ## Installation
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/muhannad-khaled/age-gender-detection.git
-```
-
-2. Download the following Caffe pre-trained models:
+1. Download the following Caffe pre-trained models:
 
    - `opencv_face_detector.pbtxt`
    - `opencv_face_detector_uint8.pb`
@@ -46,7 +40,7 @@ git clone https://github.com/muhannad-khaled/age-gender-detection.git
    - `gender_deploy.prototxt`
    - `gender_net.caffemodel`
 
-3. Place the downloaded models in the project directory.
+2. Place the downloaded models in the project directory.
 
 
 ## How to Run
