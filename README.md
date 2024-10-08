@@ -63,13 +63,13 @@ python main.py
 ## Project Structure
 
 
-├── main.py                  # Main Python script for age-gender detection
-├── opencv_face_detector.pbtxt  # Face detection model configuration
-├── opencv_face_detector_uint8.pb  # Face detection model
-├── age_deploy.prototxt      # Age detection model configuration
-├── age_net.caffemodel       # Age detection model
-├── gender_deploy.prototxt   # Gender detection model configuration
-├── gender_net.caffemodel    # Gender detection model
+├── main.py                   Main Python script for age-gender detection
+├── opencv_face_detector.pbtxt   Face detection model configuration
+├── opencv_face_detector_uint8.pb   Face detection model
+├── age_deploy.prototxt       Age detection model configuration
+├── age_net.caffemodel        Age detection model
+├── gender_deploy.prototxt    Gender detection model configuration
+├── gender_net.caffemodel     Gender detection model
 
 
 
