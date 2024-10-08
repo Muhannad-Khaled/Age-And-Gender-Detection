@@ -28,6 +28,7 @@ You can install these packages using `pip`:
 
 pip install opencv-python numpy
 
+---
 
 ## Installation
 
@@ -42,6 +43,7 @@ pip install opencv-python numpy
 
 2. Place the downloaded models in the project directory.
 
+---
 
 ## How to Run
 
@@ -53,6 +55,7 @@ python main.py
 3. The webcam will open, and you can see the real-time age and gender predictions on the video stream.
 4. Press **`q`** to exit the video stream.
 
+---
 
 ## Project Structure
 
@@ -64,7 +67,7 @@ python main.py
 - gender_deploy.prototxt: Gender detection model configuration
 - gender_net.caffemodel: Gender detection model
 
-
+---
 
 ## Models Used
 
@@ -72,6 +75,7 @@ python main.py
 - Age Detection Model: Pre-trained on age data and capable of detecting age ranges from 0 to 100.
 - Gender Detection Model: Pre-trained on gender data to classify gender into "Male" and "Female".
 
+---
 
 ## Key Features
 
@@ -79,11 +83,13 @@ python main.py
 2. Smoothing Mechanism: Stabilizes the age predictions over multiple frames to reduce fluctuations.
 3. High Confidence Predictions: Applies confidence thresholds for more reliable gender classification.
 
+---
 
 ## Smoothing Mechanism
 
 To stabilize noisy age predictions, the project implements a smoothing mechanism using a queue. The age predictions are averaged over the last 5 frames, and the most frequent prediction is displayed. This reduces rapid changes in the predicted age values.
 
+---
 
 ## Acknowledgements
 
